@@ -2,9 +2,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: url(background.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: black;
   font-family: "Roboto", sans-serif;
   color: white;
   line-height: 1.5;
@@ -36,9 +34,7 @@ body {
   flex-wrap: wrap;
   color: white;
 }
-.align-bottom {
-  align-content: flex-end;
-}
+
 .content {
   padding: 2rem;
 }
@@ -56,6 +52,8 @@ body {
 .content > * {
   padding-top: 10px;
 }
+
+/* Her kodes siden til widescreen */
 
 @media only screen and (min-width: 600px) {
   .item {
