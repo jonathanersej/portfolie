@@ -8,6 +8,8 @@ body {
   line-height: 1.5;
 }
 
+/* Her sætter jeg borders på containeren, centrere og sætter margin w/h */
+
 .container {
   border-left: 2px solid white;
   border-right: 2px solid white;
@@ -15,6 +17,8 @@ body {
   margin: 10vh auto;
   position: relative;
 }
+
+/* Her styles alle items */
 
 .item {
   position: relative;
@@ -24,6 +28,8 @@ body {
   width: 100%;
   border-bottom: white 2px solid;
 }
+
+/* Her sætter jeg alle items med et lige nummer til højre */
 
 .item:nth-child(even) {
   left: 50%;
@@ -35,9 +41,14 @@ body {
   color: white;
 }
 
+/* Her får alt content en padding til borders */
+
 .content {
   padding: 2rem;
 }
+
+/* Her styles alle 5 billeder */
+
 .content img {
   height: 100%;
   width: 100%;
@@ -49,6 +60,9 @@ body {
   flex: 1 100%;
   margin: 0;
 }
+
+/* Her får alt som er inde i et content tag en padding top */
+
 .content > * {
   padding-top: 10px;
 }
